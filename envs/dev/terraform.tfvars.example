@@ -1,0 +1,14 @@
+# Example dev configuration (safe defaults; no secrets)
+project_name = "c_car_platform"
+environment  = "dev"
+aws_region   = "us-east-1"
+
+# Additional tags for traceability
+tags = {
+  Owner   = "dev"
+  Purpose = "local-dev-scaffolding"
+}
+
+# Guardrail placeholders
+allowed_ingress_cidrs = ["127.0.0.1/32"]
+vpc_cidr              = "10.10.0.0/16"

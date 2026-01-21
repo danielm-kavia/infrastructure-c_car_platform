@@ -1,1 +1,10 @@
 .file_activity_report.json
+
+# Terraform
+**/.terraform/
+**/.terraform.lock.hcl
+**/terraform.tfstate
+**/terraform.tfstate.backup
+**/crash.log
+**/crash.*.log
+**/*.tfvars
